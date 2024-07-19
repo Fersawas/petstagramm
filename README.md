@@ -8,7 +8,6 @@
 - [Начало работы](#begining)
 - [Запуск через docker](#docker)
 - [Основные эндпоинты и возможности](#endpoints)
-- [Комнада проекта](#team)
 
 ## <a name="tech">Технологии</a>
 
@@ -55,7 +54,7 @@ python manage.py runserver
 ```
 docker compose -f docker-compose.yaml up -d
 ```
-## <a name="endpoints">FAQ</a>
+## <a name="endpoints">Основные эндпоинты и возможности</a>
 Для регистрации пользователя перейдите на ендпоинт
     http://localhost:8000/api/users/users/
 Для создания токена
